@@ -1,5 +1,7 @@
-Qiao's vim files
+Sezina's vim files
 ================
+
+This vim files is forks from [Qiao's vim files](https://github.com/qiao/vimfiles). And then be modified to meet my need.
 
 ## Bundled Plugins ##
 
