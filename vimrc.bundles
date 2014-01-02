@@ -32,3 +32,18 @@ Bundle 'vim-scripts/nginx.vim'
 Bundle 'honza/vim-snippets'
 Bundle 'slim-template/vim-slim'
 Bundle 'tpope/vim-haml'
+ " Bundle 'motemen/git-vim'
+ " Python mode (indentation, doc, refactor, lints, code checking, motion and
+ "  operators, highlighting, run and ipdb breakpoints)
+ " Bundle 'klen/python-mode'
+ " Autocompletion
+ " Bundle 'vim-scripts/AutoComplPop'
+ " Python code checker
+ " Bundle 'vim-scripts/pyflakes.vim'
+ " Search results counter
+ " Bundle 'vim-scripts/IndexedSearch'
+
+" go
+Bundle 'cespare/vim-golang'
+Bundle 'dgryski/vim-godef'
+Bundle 'Blackrush/vim-gocode'
