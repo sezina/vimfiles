@@ -1,3 +1,5 @@
+" set encoding
+set encoding=utf-8
 " Don't be compatible with vi
 set nocompatible 
 
@@ -63,6 +65,7 @@ set tabstop=4
 set shiftwidth=4 
 set linespace=4
 
+" set indentation for specific language
 autocmd Syntax html,css,ruby,javascript,coffee set tabstop=2 shiftwidth=2 linespace=2
 
 " Indent guides (default toggle key is <leader>ig)
@@ -78,6 +81,7 @@ let g:neocomplcache_enable_at_startup=1
 let g:neocomplcache_enable_smart_case=1
 let g:neocomplcache_min_syntax_length = 3
 let g:neocomplcache_lock_buffer_name_pattern = '\*ku\*'
+let g:neosnippet#disable_runtime_snippets = { "_":1, }
 autocmd Syntax html let g:neocomplcache_disable_auto_complete=1
 set completeopt-=preview
 
